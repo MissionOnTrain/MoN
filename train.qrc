@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>tr.png</file>
+        <file>background3.jpg</file>
+        <file>player2.png</file>
+        <file>player1.png</file>
+        <file>user.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>trains003.wav</file>
+    </qresource>
+</RCC>

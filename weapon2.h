@@ -7,4 +7,4 @@ public:
     weapon2();
 };
 
-#endif // WEAP2_H
+#endif // WEAPON2_H

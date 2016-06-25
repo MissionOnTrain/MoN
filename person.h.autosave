@@ -6,13 +6,14 @@ class person
 {
 
 public:
-    QGraphicsPixmapItem* Userpic;
+    QGraphicsPixmapItem* pic;
     //train*TRain;
 person();
    int x , y;
 
-private slots:
-    //virtual void move();
+public slots:
+    virtual void move()=0;
+   virtual void shoot()=0;
 
 };
 
