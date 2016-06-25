@@ -1,6 +1,11 @@
-#include"person.h"
-#include"player.h"
-person::person(){
-    x=0;
-    y=0;
-}
+#include "person.h"
+#include "mainwindow.h"
+#include "heart.h"
+#include<QGraphicsScene>
+/*person::person()
+{
+    //Userpic = userpuic;
+}*/
+
+
+

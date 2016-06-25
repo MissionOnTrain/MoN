@@ -8,7 +8,7 @@ public:
     weapon();
     QGraphicsPixmapItem*weappic;
     gunshot g;
-    int power;
+    //int power;
 };
 
 #endif // WEAPON_H

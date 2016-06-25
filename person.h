@@ -1,19 +1,23 @@
 #ifndef PERSON_H
 #define PERSON_H
 #include<QGraphicsPixmapItem>
+#include "mainwindow.h"
+#include "heart.h"
+#include<QGraphicsScene>
 //#include<train.h>
 class person
 {
 
 public:
-    QGraphicsPixmapItem* Userpic;
+    QGraphicsPixmapItem* pic;
     //train*TRain;
-person();
+//person();
    int x , y;
+   //heart h;
 
-private slots:
-    //virtual void move();
-
+public slots:
+   //virtual void move();
+   //virtual void shoot();
 };
 
 #endif // PERSON_H
